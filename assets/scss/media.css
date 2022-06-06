@@ -1,0 +1,60 @@
+@media screen and (max-width: 1300px) {
+  main {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  main .container {
+    flex-wrap: wrap;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  main .container .image {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  main .container .texte {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  main .container .texte p.txt {
+    text-align: center;
+  }
+
+  .icon {
+    width: 100%;
+    justify-content: center;
+    margin: 30px auto 30px;
+  }
+}
+@media screen and (max-width: 720px) {
+  .image {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .image img {
+    width: 100%;
+    height: auto;
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
+}
+@media screen and (max-width: 460px) {
+  h2 {
+    text-align: center;
+  }
+
+  .header-element {
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+  }
+}/*# sourceMappingURL=media.css.map */

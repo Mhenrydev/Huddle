@@ -1,0 +1,73 @@
+@import './typography.scss';
+@import './variables.scss';
+@import './svg.scss';
+
+@media screen and (max-width:1300px){
+   main{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+
+        .container{
+        flex-wrap: wrap;
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+            .image{
+                width: 100%;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+
+            .texte{
+                width: 100%;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+
+                p.txt{
+                    text-align: center;
+                }            
+            }
+        }
+    }
+
+    .icon{
+        width: 100%;
+        justify-content: center;
+        margin:30px auto 30px
+    }
+} 
+
+@media screen and (max-width:720px){
+    .image{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        img{
+            width: 100%;
+            height: auto;
+            object-fit: cover;
+        }
+        
+    }
+    
+}
+
+@media screen and (max-width:460px){
+    h2{
+        text-align: center;
+    }
+
+    .header-element{
+        justify-content: center;
+        margin: 0;
+        padding: 0;
+        
+    }
+}
